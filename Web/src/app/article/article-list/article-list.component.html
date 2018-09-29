@@ -1,0 +1,8 @@
+<p>
+  article-list works!
+</p>
+<ng-container *ngIf='articles!=null'>
+  <ng-container *ngFor='let article of articles'>
+    <app-article-item [article]='article'></app-article-item>
+  </ng-container>
+</ng-container>
